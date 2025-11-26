@@ -8,7 +8,18 @@
 
 <!--END_BANNER_IMAGE-->
 
-# JavaScript/TypeScript client SDK for LiveKit
+# JavaScript/TypeScript client SDK for LiveKit (安全上下文修复版)
+
+> **⚠️ This is a fork version of livekit 2.1.6**
+>
+>
+>
+> original repo: [livekit/client-sdk-js](https://github.com/livekit/client-sdk-js)
+>
+>
+> 📦 **package**: `@yrendaoai/livekit-client-fixed`
+>
+> 🚀 **install**: `npm install @yrendaoai/livekit-client-fixed`
 
 <!--BEGIN_DESCRIPTION-->
 Use this SDK to add realtime video, audio and data features to your JavaScript/TypeScript app. By connecting to <a href="https://livekit.io/">LiveKit</a> Cloud or a self-hosted server, you can quickly build applications such as multi-modal AI, live streaming, or video calls with just a few lines of code.
@@ -358,7 +369,7 @@ You may throw errors of the type `RpcError` with a string `message` in an RPC me
 
 | Code  | Name                        | Reason             |
 | ----- | --------------------------- | ------------------ |
-| 1     | `ConnectionError`           | 0: `NotAllowed`<br>1: `ServerUnreachable`<br>2: `InternalError`<br>3: `Cancelled`<br>4:`LeaveRequest` |  
+| 1     | `ConnectionError`           | 0: `NotAllowed`<br>1: `ServerUnreachable`<br>2: `InternalError`<br>3: `Cancelled`<br>4:`LeaveRequest` |
 | 10    | `UnsupportedServer`         |             |
 | 12    | `UnexpectedConnectionState` |             |
 | 13    | `NegotiationError`          |             |
